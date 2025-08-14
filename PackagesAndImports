@@ -1,0 +1,23 @@
+package com.student;
+
+public class Student {
+
+    public int id;
+    public String name;
+
+    public void printname() {
+        System.out.println("Student name is  "  + name);
+    }
+}
+Creating another class called Listener in package called student.info.
+package student.info;
+
+import com.student.Student; // importing package of previous class
+public class Learner {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.id = 25;
+        s1.name = "Anjali";
+        s1.printname();
+    }
+}
