@@ -1,0 +1,40 @@
+package Constructors;
+
+public class Employee {
+
+    int id;
+    String name;
+    String designation;
+
+    void printname(){
+        System.out.println("Employee name is  " + name);
+    }
+
+    Employee(){
+        this.id = 254;
+        this.name = "Anjali";
+        this.designation = "Software Engineer";
+        System.out.println("Employee designation is  " + this.designation);
+    }
+
+    Employee(int id , String name){
+        this.id = id;
+        this.name = name;
+    }
+
+    public static void main(String[] args) {
+      // Employee emp1 = new Employee();  //default constructor
+      //  emp1.name ="Anjali";
+        // emp1.printname();
+
+        Employee emp2 = new Employee(); // no argument constructor
+        emp2.printname();
+
+        Employee emp3 = new Employee(280,"Kavya"); // Parameterized constructor
+        emp3.printname();
+
+    }
+}
+
+/* Constructor Overloading : Constructor Overloading means having more than one constructor in a class , each with
+                                 different parameters. */
