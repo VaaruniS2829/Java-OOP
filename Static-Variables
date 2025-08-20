@@ -1,0 +1,25 @@
+// This is a simple java program that demonstrates the difference between static
+    and non-static variables using a Human class //
+class Human{
+    int age;
+    String name;
+    double height;
+    static long population = 0;
+
+Human(int age , String name , double height){
+    this.age=age;
+    this.name=name;
+    this.height=height;
+    Human.population+=1;
+}
+}
+public class Main{
+    public static void main(String[] args){
+        Human Anjali = new Human(23 , "Anjali" , 5.9 );
+        Human Kavya = new Human(22 , "Kavya" , 5.8 );
+
+        System.out.println("Anjali population: " + Human.population);
+        System.out.println("Kavya population: " + Human.population);
+
+    }
+}                         
