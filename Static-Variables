@@ -1,5 +1,5 @@
-// This is a simple java program that demonstrates the difference between static
-    and non-static variables using a Human class //
+/* This is a simple java program that demonstrates the difference between static
+    and non-static variables using a Human class */
 class Human{
     int age;
     String name;
