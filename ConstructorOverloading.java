@@ -3,7 +3,7 @@ class ConstructorOverloading{
     int a;
     int b;
 
-    // Creating constructor without giving input
+    //  Creating constructor without giving input
     ConstructorOverloading(){
 
         a=10;
@@ -12,7 +12,7 @@ class ConstructorOverloading{
 
     }
      
-    // Creating constructor by giving input
+    //  Creating constructor by giving input
     ConstructorOverloading(int x , int y){
 
         int a=x;
