@@ -1,4 +1,5 @@
 // Single inheritance
+
 // A class inherits from only one parent class.
 
 class A {
