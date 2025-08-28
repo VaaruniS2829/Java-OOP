@@ -1,4 +1,5 @@
 // Inheritance
+
 /*Inheritance is OOP (Object Oriented Programming) concept
  where one class (called child or subclass) can use the properties
  and methods of another class (called the parent or superclass).
