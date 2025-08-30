@@ -1,6 +1,7 @@
 // Hierarchical_inheritance
 
 /* Multiple child classes inherit from a single parent class. */
+/* One super class can have many sub classes */
 
 class A2 {
     int a;
