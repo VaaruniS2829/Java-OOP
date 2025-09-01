@@ -1,0 +1,9 @@
+Final Keyword :
+
+Final variable → constant (value can’t be changed).
+
+Final method → can’t be overridden.
+
+Final class → can’t be inherited.
+
+Final parameter → can’t be reassigned inside the method.
