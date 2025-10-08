@@ -29,9 +29,11 @@ class WagenR extends Car
 }
 
 public class Abstractkeyword
+ 
 {
 
     public static void main(String[] args)
+ 
      {
         // Car obj = new Car();  Here , we cannot create object of class Car
         Car obj = new WagenR();
@@ -41,4 +43,5 @@ public class Abstractkeyword
         obj.drive();
 
     }
+ 
 }
