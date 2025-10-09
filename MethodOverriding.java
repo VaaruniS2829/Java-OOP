@@ -1,4 +1,4 @@
-// Method Overriding:
+// Method Overriding: 
 class P
      {
     public void show()
