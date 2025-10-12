@@ -12,7 +12,7 @@ class Laptop
 //         return model + " : " + price;
 //     }
  }
- class HashCodeMethod
+ class ToString-HashCodeMethod
 {
     public static void main(String[] args)
     {
