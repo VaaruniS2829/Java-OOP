@@ -1,3 +1,4 @@
+
 class Laptop
 {
     String model;
@@ -33,6 +34,5 @@ class Laptop
     boolean result = obj1.equals(obj2);
 
     System.out.println(result);
-
-}
+   }
 }
