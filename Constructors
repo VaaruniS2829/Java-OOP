@@ -6,18 +6,21 @@ public class Employee {
     String name;
     String designation;
 
-    void printname(){
+    void printname()
+    {
         System.out.println("Employee name is  " + name);
     }
 
-    Employee(){
+    Employee()
+  {
         this.id = 254;
         this.name = "Anjali";
         this.designation = "Software Engineer";
         System.out.println("Employee designation is  " + this.designation);
     }
 
-    Employee(int id , String name){
+    Employee(int id , String name)
+    {
         this.id = id;
         this.name = name;
     }
