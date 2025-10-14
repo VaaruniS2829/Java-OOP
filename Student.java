@@ -1,21 +1,27 @@
-public class Student {
+public class Student
+    {
     String name;
     int marks;
 
     //Method to check pass/fail
-    void checkResult() {
-        if (marks >= 35) {
+    void checkResult() 
+        {
+        if (marks >= 35) 
+        {
             //Conditional flow
             System.out.println(name + " passed.");
-        } else {
+        }
+        else 
+        {
             System.out.println(name + " failed.");
         }
     }
 
     // Method to display student details
-    void displayDetails() {
+    void displayDetails() 
+        {
         System.out.println("Name: " + name + ",Marks: " + marks);
-    }
+         }
 
 
     public static void main(String[] args) {
@@ -39,6 +45,7 @@ public class Student {
         //  conditional flow inside method
 
         s2.displayDetails();
+        
         s2.checkResult();
 
     }
