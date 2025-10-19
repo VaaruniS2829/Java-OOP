@@ -1,4 +1,5 @@
-class Demo{
+class Demo
+{
 
 	public int a = 10;
 
@@ -8,7 +9,8 @@ class Demo{
 
 	int d = 40;
 
-	public void showValues() {
+	public void showValues()
+	{
 
 		System.out.println("Public variable a : " +a);
 
@@ -22,9 +24,11 @@ class Demo{
 
 }
 
-public class AccessModifiers {
+public class AccessModifiers 
+{
 
-      public static void main(String args[]) {
+      public static void main(String args[]) 
+	{
 
     	  Demo obj = new Demo();
 
