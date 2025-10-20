@@ -1,6 +1,6 @@
 enum Status
 {
-  Running , Pending , Failed , Success;
+  Running , Pending , Failed , Success; // objects
 }
 public class Enum
 {
