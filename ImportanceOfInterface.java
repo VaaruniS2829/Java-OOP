@@ -32,5 +32,6 @@ public class ImportanceOfInterface
     Computer desk = new Desktop();
     Developer employee = new Developer();
     employee.devApp(lap);
+   //  employee.devApp(desk);
    }
 }
