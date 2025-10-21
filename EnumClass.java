@@ -3,11 +3,11 @@ enum Laptop
 {
    Macbook(2000) , XPS(2200) , Surface , ThinkPad(1800);// in dollars
    private int price;
-   private Laptop()
+   private Laptop() // default constructor 
    {
       price=500;
    }
-   private Laptop(int price)
+   private Laptop(int price)// Parameterized constructor 
    {
       this.price=price;
       System.out.println("in Laptop " + this.name());
