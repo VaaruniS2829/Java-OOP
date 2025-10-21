@@ -2,6 +2,7 @@ enum Status
 {
   Running , Pending , Failed , Success; // objects
 }
+
 public class Enum
 {
    public static void main(String[] args)
