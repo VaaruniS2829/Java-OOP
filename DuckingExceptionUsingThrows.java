@@ -14,7 +14,8 @@ class Ab
 class DuckingExceptionUsingThrows
 {
     
-    static {
+    static 
+    {
         System.out.println("Class Loaded");
     }
     public static void main(String[] args)
