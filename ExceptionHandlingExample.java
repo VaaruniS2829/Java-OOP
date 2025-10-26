@@ -2,7 +2,7 @@ package oopjavalabpackage;
 
 
 
-public class ExceptionHandling {
+public class ExceptionHandlingExample {
 
 	public static void main(String[] args) {
 
