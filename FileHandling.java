@@ -1,6 +1,7 @@
 import java.io.File;
 
-public class FileHandling {
+public class FileHandling
+    {
     public static void main(String[] args)
     {
         String path="C:\\Users\\VAARUNI\\Desktop\\data.txt";
