@@ -13,7 +13,7 @@ public class FileHandling
        System.out.println(file.getParent()); // it prints the path of parent folder
        System.out.println(file.getAbsolutePath()); // it is used to get complete path or directory , i.e.., it return only string
        System.out.println(file.getAbsoluteFile()); // (format is change) returns a file object i.e.., we'll get actuall file
-       System.err.println(file.isFile()); // it checks if it is file or directory
-       System.err.println(file.isDirectory()); // it checks if it is file or directory
+       System.out.println(file.isFile()); // it checks if it is file or directory
+       System.out.println(file.isDirectory()); // it checks if it is file or directory
     }
 }
