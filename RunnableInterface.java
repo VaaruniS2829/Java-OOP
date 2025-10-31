@@ -1,5 +1,5 @@
 //Runnable is an interface in Java that is used to define a task that can be executed by a thread.
-class T implements Runnable{ 
+class A implements Runnable{ 
     public void run()
     {
         for(int i=1 ; i<=10;i++)
@@ -15,7 +15,7 @@ class T implements Runnable{
 
     }
 }
-class R implements Runnable{
+class B implements Runnable{
     public void run()
     {
         for(int i=1;i<=10;i++)
@@ -32,8 +32,8 @@ class R implements Runnable{
 }
 public class RunnableInterface{
     public static void main(String[] args) {
-        Runnable obj1=new T(); // Thread 1
-        Runnable obj2=new R(); //Thread 2
+        Runnable obj1=new A(); // Thread 1
+        Runnable obj2=new B(); //Thread 2
         
         //obj1.start();  // it will not work because it is run method is not there in runnable
         Thread t1 = new Thread(obj1);
