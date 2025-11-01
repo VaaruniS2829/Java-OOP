@@ -1,0 +1,20 @@
+The Java Collection API (or Framework) is a set of interfaces and classes in java.util package used to store, manipulate, and retrieve groups of objects efficiently.
+
+It provides ready-made data structures like lists, sets, queues, and maps — so you don’t need to write your own.
+ 
+             Iterable
+                 |
+            Collection
+        /       |        \
+     List      Set      Queue
+     |          |          |
+ ArrayList   HashSet   PriorityQueue
+ LinkedList  TreeSet   LinkedList
+ Vector
+ Stack
+
+              Map
+       /                 \
+   HashMap             SortedMap
+                        |
+                      TreeMap
