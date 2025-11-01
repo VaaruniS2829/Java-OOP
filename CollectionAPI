@@ -16,5 +16,5 @@ It provides ready-made data structures like lists, sets, queues, and maps — so
               Map
        /                 \
    HashMap             SortedMap
-                        |
-                      TreeMap
+                          |
+                       TreeMap
