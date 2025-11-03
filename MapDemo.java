@@ -1,3 +1,5 @@
+/*In Java, a Map is an interface in the java.util package that represents a collection of key–value pairs.
+It maps unique keys to specific values, meaning each key can be used to retrieve its associated value quickly.*/
 import java.util.Map;
 import java.util.HashMap;
 
