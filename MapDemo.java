@@ -1,5 +1,12 @@
 /*In Java, a Map is an interface in the java.util package that represents a collection of key–value pairs.
-It maps unique keys to specific values, meaning each key can be used to retrieve its associated value quickly.*/
+It maps unique keys to specific values, meaning each key can be used to retrieve its associated value quickly.
+HashMap → Unordered, fast performance
+
+LinkedHashMap → Maintains insertion order
+
+TreeMap → Maintains keys in sorted order
+
+Hashtable → Thread-safe but slower (legacy class)*/
 import java.util.Map;
 import java.util.HashMap;
 
