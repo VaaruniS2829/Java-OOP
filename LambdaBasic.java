@@ -1,10 +1,27 @@
-interface Sayable {
-    void say();
+// without lamda                                              
+// interface Hello {
+//     void sayHello();
+// }
+
+// public class Test {
+//     public static void main(String[] args) {
+//         Hello h = new Hello() {
+//             public void sayHello() {
+//                 System.out.println("Hello!");
+//             }
+//         };
+//         h.sayHello();
+//     }
+// }
+// with lamda:
+interface Hello {
+    void sayHello();
 }
 
-public class Example1 {
+public class LambdaBasic {
     public static void main(String[] args) {
-        Sayable s = () -> System.out.println("Hello from Lambda!");
-        s.say();
+        Hello h = () -> System.out.println("Hello!");
+        h.sayHello();
     }
 }
+
