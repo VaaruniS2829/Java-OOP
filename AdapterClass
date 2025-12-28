@@ -1,0 +1,25 @@
+// Interface
+interface Shape {
+    void draw();
+    void resize();
+}
+
+// Adapter class
+abstract class ShapeAdapter implements Shape {
+    public void draw() {}
+    public void resize() {}
+}
+
+// Concrete class using Adapter
+class Circle extends ShapeAdapter {
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing Circle");
+    }
+
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        c.draw();
+    }
+}
