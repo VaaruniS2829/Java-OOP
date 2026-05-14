@@ -11,5 +11,9 @@ public class Linked_List {
         for(int i:list){
             System.out.println(i);
         }
+        list.remove(1);
+//        list.removeFirst();
+//        list.removeLast();
+//        list.clear();
     }
 }
